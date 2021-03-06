@@ -14,8 +14,8 @@ import './index.css';
 
 export default function App() {
   return(
-    <Router>
       <div className="App">
+        <Router>
         <nav>
           <ul>
             <li>
@@ -41,7 +41,7 @@ export default function App() {
             </UsersContextProvider>
           </Route>
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 };
