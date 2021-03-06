@@ -10,21 +10,20 @@ import {About} from "./components/About";
 import UsersContextProvider from "./components/Users";
 import SearchBox from "./components/search-box";
 import UserDetails from "./components/UserDetails";
-
+import './index.css';
 
 export default function App() {
   return(
-    <Router className="App">
-      <div>
+    <Router>
+      <div className="App">
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" style={{textDecoration: 'none'}}>Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about" style={{textDecoration: 'none'}}>About</Link>
             </li>
-
           </ul>
         </nav>
 

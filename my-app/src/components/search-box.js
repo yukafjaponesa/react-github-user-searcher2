@@ -17,6 +17,7 @@ const SearchBox = () => {
     <div className="App">
       <h1>Github user searcher</h1>
       <input
+        className="search-box"
         type="text"
         placeholder="Search"
         onChange={(e) => (setSearch(e.target.value))}
